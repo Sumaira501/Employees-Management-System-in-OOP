@@ -85,11 +85,11 @@ int main() {
     emp3->displayEmployee();
     delete emp3;
 
-    // Passing object as function argument (inside class)
+    // Passing object as function argument 
     cout << "Passing Employee Object to Function:" << endl;
     Employee::displayEmployeeData(emp1);
 
-    // Returning an object from a function (inside class)
+    // Returning an object from a function 
     Employee emp4 = Employee::createEmployee("Asma", 112, 950000);
     cout << "Employee 4 Data :" << endl;
     emp4.displayEmployee();
@@ -98,3 +98,4 @@ int main() {
 
     return 0;
 }
+
